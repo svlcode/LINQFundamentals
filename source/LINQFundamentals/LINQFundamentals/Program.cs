@@ -10,6 +10,12 @@ namespace LINQFundamentals
         static void Main(string[] args)
         {
             ShowEvenNumbers();
+            TestMethod();
+        }
+
+        private static void TestMethod()
+        {
+            Console.WriteLine("This is a test");
         }
 
         private static void ShowEvenNumbers()
